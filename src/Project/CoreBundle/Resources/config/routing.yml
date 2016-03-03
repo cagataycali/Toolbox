@@ -1,0 +1,15 @@
+project_core_homepage:
+    path:     /
+    defaults: { _controller: ProjectCoreBundle:Default:index }
+
+# Hardcoded #
+
+project_core_hardcoded_post:
+    path:     /post
+    defaults: { _controller: ProjectCoreBundle:Default:post }
+
+project_core_hardcoded_get:
+    path:     /get
+    defaults: { _controller: ProjectCoreBundle:Default:get }
+
+# Hardcoded #

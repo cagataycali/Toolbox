@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+{# HardCoded Body #}
+{% block body %}
+
+    <form action="{{ path('project_core_hardcoded_post') }}" method="post">
+        <input type="text" name="id" placeholder="Write a id param..">
+        <input type="submit">
+    </form>
+
+{% endblock body %}
