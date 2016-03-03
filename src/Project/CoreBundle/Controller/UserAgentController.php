@@ -4,11 +4,12 @@ namespace Project\CoreBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class UserAgentController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('ProjectCoreBundle:Default:index.html.twig');
+        echo "User agent's dude ";
+
+        die; # Die dude die!
     }
 }
-

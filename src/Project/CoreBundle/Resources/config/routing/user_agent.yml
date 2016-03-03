@@ -1,0 +1,7 @@
+# User agents # 
+
+project_core_user_agent:
+    path:     /
+    defaults: { _controller: ProjectCoreBundle:UserAgent:index }
+
+# User agents # 

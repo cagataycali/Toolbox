@@ -2,14 +2,11 @@ project_core_homepage:
     path:     /
     defaults: { _controller: ProjectCoreBundle:Default:index }
 
-# Hardcoded #
 
-project_core_hardcoded_post:
-    path:     /post
-    defaults: { _controller: ProjectCoreBundle:Default:post }
+project_core_hardcoded_requests:
+    resource: "@ProjectCoreBundle/Resources/config/routing/request.yml"
+    prefix:   /request/
 
-project_core_hardcoded_get:
-    path:     /get
-    defaults: { _controller: ProjectCoreBundle:Default:get }
-
-# Hardcoded #
+project_core_user_agents:
+    resource: "@ProjectCoreBundle/Resources/config/routing/user_agent.yml"
+    prefix:   /user-agent/

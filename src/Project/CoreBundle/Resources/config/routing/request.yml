@@ -1,0 +1,11 @@
+# Hardcoded #
+
+project_core_hardcoded_post:
+    path:     /post
+    defaults: { _controller: ProjectCoreBundle:Request:post }
+
+project_core_hardcoded_get:
+    path:     /get
+    defaults: { _controller: ProjectCoreBundle:Request:get }
+
+# Hardcoded #
